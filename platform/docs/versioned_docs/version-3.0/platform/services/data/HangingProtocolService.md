@@ -278,7 +278,7 @@ function modeFactory() {
               metaData => getFirstMeasurementSeriesInstanceUID(metaData)
             );
 
-            HangingProtocolService.run(studyMetadata);
+            HangingProtocolService.run(studyMetadata, DisplaySetService.getActiveDisplaySets());
           };
 
           DicomMetadataStore.subscribe(
