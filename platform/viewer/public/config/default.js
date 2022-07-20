@@ -21,14 +21,14 @@ window.config = {
   // filterQueryParam: false,
   dataSources: [
     {
-      friendlyName: 'dcmjs DICOMWeb Server',
+      friendlyName: 'Orthanc DICOMWeb Server',
       namespace: '@ohif/extension-default.dataSourcesModule.dicomweb',
       sourceName: 'dicomweb',
       configuration: {
-        name: 'DCM4CHEE',
-        wadoUriRoot: 'https://server.dcmjs.org/dcm4chee-arc/aets/DCM4CHEE/wado',
-        qidoRoot: 'https://server.dcmjs.org/dcm4chee-arc/aets/DCM4CHEE/rs',
-        wadoRoot: 'https://server.dcmjs.org/dcm4chee-arc/aets/DCM4CHEE/rs',
+        name: 'ORTHANC',
+        wadoUriRoot: 'http://ram:pswd1234@34.125.230.86:8042/wado',
+        qidoRoot: 'http://ram:pswd1234@34.125.230.86:8042/dicom-web/',
+        wadoRoot: 'http://ram:pswd1234@34.125.230.86:8042/dicom-web/',
         qidoSupportsIncludeField: true,
         supportsReject: true,
         imageRendering: 'wadors',
@@ -37,7 +37,7 @@ window.config = {
         supportsFuzzyMatching: true,
         supportsWildcard: true,
       },
-    },
+    },  
     {
       friendlyName: 'dicom json',
       namespace: '@ohif/extension-default.dataSourcesModule.dicomjson',
