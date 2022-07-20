@@ -93,7 +93,7 @@ const Header = () => {
         </div>
         <div className="flex items-center">
           <span className="mr-3 text-lg text-common-light">
-            FOR INVESTIGATIONAL USE ONLY
+           EMR 
           </span>
           <IconButton
             variant="text"

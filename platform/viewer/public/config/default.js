@@ -11,7 +11,7 @@ window.config = {
           className: 'text-white underline',
           href: 'http://radicalimaging.com',
         },
-        React.createElement('h5', {}, 'RADICAL IMAGING')
+        React.createElement('img', {src:"./cdie1.jpg"}, null)
       );
     },
   },
