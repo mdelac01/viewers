@@ -18,10 +18,10 @@ window.config = {
   servers: {
     dicomWeb: [
       {
-        name: 'DCM4CHEE',
-        wadoUriRoot: 'https://server.dcmjs.org/dcm4chee-arc/aets/DCM4CHEE/wado',
-        qidoRoot: 'https://server.dcmjs.org/dcm4chee-arc/aets/DCM4CHEE/rs',
-        wadoRoot: 'https://server.dcmjs.org/dcm4chee-arc/aets/DCM4CHEE/rs',
+        name: 'ORTHANC',
+        wadoUriRoot: 'http://orthancUser:orthancPswd@ecoserverpy.sytes.net:8042/wado',
+        qidoRoot: 'http://orthancUser:orthancPswd@ecoserverpy.sytes.net:8042/dicom-web',
+        wadoRoot: 'http://orthancUser:orthancPswd@ecoserverpy.sytes.net:8042/dicom-web',
         qidoSupportsIncludeField: true,
         imageRendering: 'wadors',
         thumbnailRendering: 'wadors',

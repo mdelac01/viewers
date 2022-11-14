@@ -66,7 +66,6 @@ class DropdownMenu extends Component {
 
     return (
       <div className={`dd-menu-list ${align || 'left'}`}>
-        {this.getListItems()}
       </div>
     );
   };
