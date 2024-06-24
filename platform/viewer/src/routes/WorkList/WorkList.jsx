@@ -381,7 +381,7 @@ function WorkList({
       onClick: () =>
         show({
           content: AboutModal,
-          title: 'About OHIF Viewer',
+          title: 'About Centro Endovascular y Cardiovascular',
           contentProps: { versionNumber, buildNumber },
         }),
     },
